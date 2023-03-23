@@ -15,13 +15,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("persona") //localhost:8080/persona
-@CrossOrigin(origins = "http://localhost:4200")
+@RequestMapping("persona") //https://nuevoivonportf.web.app
+@CrossOrigin(origins = "https://nuevoivonportf.web.app")
 public class CPersona {
     @Autowired
     SPersona sPersona;
     
-    @GetMapping("/lista") //localhost:8080/persona/lista
+    @GetMapping("/lista") 
     @ResponseBody
     public List <Persona> verPersonas(){
         return sPersona.verPersonas();

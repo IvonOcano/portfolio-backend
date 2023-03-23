@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("red") //localhost:8080/red
-@CrossOrigin(origins = "http://localhost:4200")
+@RequestMapping("red") 
+@CrossOrigin(origins = "https://nuevoivonportf.web.app")
 public class CRed {
     @Autowired
 SRed sRed;
