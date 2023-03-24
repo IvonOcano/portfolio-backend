@@ -18,7 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/experiencia") //https://nuevoivonportf.web.app/
-@CrossOrigin(origins = "https://nuevoivonportf.web.app", allowedHeaders="*")
+//@CrossOrigin(origins = "https://nuevoivonportf.web.app", allowedHeaders="*")
+@ CrossOrigin ( "*" )
 public class CExperiencia {
     @Autowired
     SExperiencia sExperiencia;

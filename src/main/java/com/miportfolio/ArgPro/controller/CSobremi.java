@@ -16,7 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/sobremi") //localhost:8080/sobremi
-@CrossOrigin(origins = "https://nuevoivonportf.web.app", allowedHeaders="*")
+//@CrossOrigin(origins = "https://nuevoivonportf.web.app", allowedHeaders="*")
+@ CrossOrigin ( "*" )
 public class CSobremi {
     
     @Autowired
