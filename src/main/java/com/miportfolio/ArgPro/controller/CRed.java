@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/red") 
-//@CrossOrigin(origins = "https://nuevoivonportf.web.app", allowedHeaders="*")
-@ CrossOrigin ( "*" )
+@CrossOrigin(origins = "https://nuevoivonportf.web.app/", allowedHeaders="*")
+
 public class CRed {
     @Autowired
 SRed sRed;
