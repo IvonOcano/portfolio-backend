@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("habilidad") //https://nuevoivonportf.web.app
-@CrossOrigin(origins = "https://nuevoivonportf.web.app", allowedHeaders="*")
+@CrossOrigin(origins = "https://nuevoivonportf.web.app")
 
 public class CHabilidad {
     
