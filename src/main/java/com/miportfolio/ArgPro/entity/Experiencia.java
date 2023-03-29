@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 public class Experiencia {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    int id;
     private String puesto;
     private String inicio;
      private String fin;

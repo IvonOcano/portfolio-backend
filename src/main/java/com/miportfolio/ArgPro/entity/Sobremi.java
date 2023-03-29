@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 public class Sobremi {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    int id;
     private String info;
     private String imagen;
     private String fondo;

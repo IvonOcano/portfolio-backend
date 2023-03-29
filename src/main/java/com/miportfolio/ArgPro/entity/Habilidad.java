@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 public class Habilidad {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    int id;
     private String lenguaje;
     private int porcentaje;
 

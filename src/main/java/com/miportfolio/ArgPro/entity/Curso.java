@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 public class Curso {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    int id;
     private String titulo;
     private String descripcion;
     

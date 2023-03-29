@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 public class Datopersonal {
      @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-     private int id;
+     int id;
      
      private String nombreyapellido;
      private String domicilio;
