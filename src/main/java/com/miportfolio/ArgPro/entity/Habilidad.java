@@ -12,14 +12,14 @@ public class Habilidad {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
     private String lenguaje;
-    private int porcentaje;
+    private String iconoleng ;
 
     public Habilidad() {
     }
 
-    public Habilidad(String lenguaje, int porcentaje) {
+    public Habilidad(String lenguaje, String iconoleng) {
         this.lenguaje = lenguaje;
-        this.porcentaje = porcentaje;
+        this.iconoleng = iconoleng;
     }
     
     public int getId() {
@@ -38,12 +38,13 @@ public class Habilidad {
         this.lenguaje = lenguaje;
     }
 
-    public int getPorcentaje() {
-        return porcentaje;
+
+    public String getIconoleng() {
+        return iconoleng;
     }
 
-    public void setPorcentaje(int porcentaje) {
-        this.porcentaje = porcentaje;
+    public void setIconoleng(String iconoleng) {
+        this.iconoleng = iconoleng;
     }
     
     
